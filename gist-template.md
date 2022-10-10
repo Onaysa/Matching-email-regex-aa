@@ -74,6 +74,9 @@ A flag is an optional parameter to a regex that modifies its behavior of searchi
 ### Character Escapes
 
 
+ The main character escape in regex and the only one in this example is :
+ The  "\"  single backlash. The backslash in a regular expression precedes a literal character. You also escape certain letters that represent common character classes, such as \w for a word character or \s for a space.
+
 ## Author
 
 You can view my previous work and projects at (https://github.com/Onaysa)
