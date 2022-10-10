@@ -24,7 +24,11 @@ In this tutorial we will be breaking down a Regex that helps matching an email a
 
 ### Anchors
 
-
+The anchors used in this regex expression are the following:
+"^" The anchor asserts that we are at the beginning of the string.
+"$" The anchor asserts that we are at the end of the string.
+We use two anchors. One at the beginning, and one at the end; to 
+match the email we are looking for.
 ### Quantifiers
 
 
