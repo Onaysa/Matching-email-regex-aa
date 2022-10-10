@@ -42,20 +42,33 @@ Quantifiers in our regex include:
 ### Grouping Constructs
 
 Grouping constructs seperate specific expressions into different sections. 
-Capturing group #1 in this expression is :
+Capturing group in this expression is :
 "()" Captures everything enclosed within the parenthesis.
 
 ### Bracket Expressions
 
+A bracket expression enclosed in square brackets is a regular expression that matches a single character. It represents a single character. The character can be anything specified within the brackets.
+We have three bracket expressions in our example:
+
+`[a-z0-9_\.-]`
+`[\da-z\.-]`
+`[a-z\.]`
 
 ### Character Classes
+
+Character classes are one of the most commonly used features of regular expressions.The character classes in this expression are:
+"." which represents any character except characters on a new line.
+"\d" represents digits.
+`[a-z]` represents character between a and z. In the expression /^([a-z0-9_.-]+)@([\da-z.-]+).([a-z.]{2,6})$/ character classes a-z and "\d" are used. This means that a letter a to z and a digit from 0 to 9 can be in the string.
 
 
 ### The OR Operator
 
+The logical OR ( || ) operator is typically used with boolean (logical)values. It eturns the boolean value true if either or both operands is true and returns false otherwise. We don't have any OR operator in our example.
 
 ### Flags
 
+A flag is an optional parameter to a regex that modifies its behavior of searching. In JavaScript regex, we have a total of 6 flags, each serving a different purpose. In our code  `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/` We don't have flags.
 
 
 ### Character Escapes
