@@ -29,8 +29,14 @@ The anchors used in this regex expression are the following:
 "$" The anchor asserts that we are at the end of the string.
 We use two anchors. One at the beginning, and one at the end; to 
 match the email we are looking for.
+
+
 ### Quantifiers
 
+Quantifiers match a number of instances of a character, group, or character class in a string.
+Quantifiers in our regex include:
+"+" = takes its preceding pattern and quantifies it for one or more number of times.
+"2,6" = forces the input of characters between two & six characters long.
 
 
 ### Grouping Constructs
