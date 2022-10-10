@@ -41,6 +41,9 @@ Quantifiers in our regex include:
 
 ### Grouping Constructs
 
+Grouping constructs seperate specific expressions into different sections. 
+Capturing group #1 in this expression is :
+"()" Captures everything enclosed within the parenthesis.
 
 ### Bracket Expressions
 
